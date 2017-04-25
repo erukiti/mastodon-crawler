@@ -1,0 +1,40 @@
+{
+  "sillyname": "stonehair-soarer",
+  "builders": [
+    "copy",
+    "webpack"
+  ],
+  "opt": [],
+  "finalizer": "node",
+  "directories": {
+    "source": "src",
+    "destination": "lib"
+  },
+  "entries": [
+    {
+      "path": "src/index.js",
+      "opts": {
+        "type": "node"
+      }
+    }
+  ],
+  "webpack": {
+    "rules": [
+      {
+        "test": "\\.jsx?$",
+        "use": [
+          {
+            "loader": "babel-loader",
+            "options": {
+              "sourceMap": true
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "testers": [
+    "ava",
+    "eslint"
+  ]
+}

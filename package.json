@@ -1,0 +1,33 @@
+{
+  "main": "lib/index.js",
+  "name": "stonehair-soarer",
+  "version": "0.0.1",
+  "description": "",
+  "author": {
+    "name": "SASAKI Shunsuke",
+    "email": "erukiti+github@gmail.com",
+    "url": "https://github.com/erukiti"
+  },
+  "license": "Apache-2.0",
+  "keywords": [],
+  "scripts": {
+    "start": "ws run",
+    "build": "ws build",
+    "watch": "ws watch",
+    "test": "ws test"
+  },
+  "bin": {},
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-power-assert": "^1.0.0",
+    "eslint": "^3.19.0",
+    "espower-babel": "^4.0.3",
+    "power-assert": "^1.4.2",
+    "waterslide": "^0.8.7",
+    "webpack": "^2.4.1"
+  }
+}
