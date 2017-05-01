@@ -1,6 +1,6 @@
 {
   "main": "lib/index.js",
-  "name": "stonehair-soarer",
+  "name": "mastodon-crawler",
   "version": "0.0.1",
   "description": "",
   "author": {
@@ -26,8 +26,14 @@
     "babel-preset-power-assert": "^1.0.0",
     "eslint": "^3.19.0",
     "espower-babel": "^4.0.3",
+    "mastodon": "^1.2.0",
     "power-assert": "^1.4.2",
     "waterslide": "^0.8.7",
     "webpack": "^2.4.1"
+  },
+  "dependencies": {
+    "mastodon-api": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "node-fetch": "^1.6.3"
   }
 }
